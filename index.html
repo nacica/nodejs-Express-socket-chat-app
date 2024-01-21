@@ -63,7 +63,8 @@
 
     <!-- <script src="/socket.io/socket.io.js"></script> -->
     <script>
-      let socket = io();
+      // let socket = io();
+      let socket = io("https://nodejs-express-socket-chat-app.vercel.app/");
 
       const form = document.getElementById("form");
       const input = document.getElementById("input");
